@@ -1,0 +1,129 @@
+.footer {
+  background-color: var(--herobot-bcg-color);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 0px;
+}
+.bot-address {
+  color: var(--white-color);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__logo {
+  color: var(--white-color);
+}
+
+.bot-nav {
+  color: var(--bot-textnav-color);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bot-nav:hover,
+.bot-nav:focus {
+  color: var(--accent-text-color);
+}
+
+.bot-address:hover,
+.bot-address:focus {
+  color: var(--accent-text-color);
+}
+
+.footer__list {
+  display: inline-block;
+  margin-top: 20px;
+}
+.address li {
+  display: block;
+  height: 21px;
+  margin-top: 9px;
+}
+
+.address li:nth-child(1) {
+  margin-top: 0px;
+}
+
+.subscription-form {
+  display: flex;
+}
+.footer__general {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__second .socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+
+.footer__second .social__icons {
+  fill: #ffffff;
+}
+.pinfoot {
+  color: var(--white-color);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer__first {
+  min-width: 231px;
+  margin-right: 70px;
+}
+.subscription-mail {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: 0;
+  padding-left: 16px;
+  transition: border-color 250ms, transform 250ms;
+}
+
+.subscription-mail:focus {
+  border-color: rgb(33, 150, 243);
+}
+
+.third-bot {
+  margin-left: 93px;
+  min-width: 570px;
+}
+
+.subscription-form .button {
+  margin: 0;
+}
+
+.button .social__icons {
+  margin-left: 10px;
+}

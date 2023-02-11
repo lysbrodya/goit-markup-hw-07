@@ -1,0 +1,32 @@
+.features__title {
+    margin-bottom: 10px;
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+}
+
+.features__item {
+    width: 270px;
+}
+
+.features__astronauts {
+    display: flex;
+    background-color: rgba(245, 244, 250, 1);
+    align-items: center;
+    min-height: 120px;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.features__item+.features__item {
+    margin-left: 30px;
+}
