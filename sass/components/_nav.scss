@@ -51,7 +51,7 @@
 .nav__link-auth:focus {
   color: var(--accent-text-color);
 }
-.nav__activ-page {
+.nav__link--activ {
   color: var(--accent-text-color);
   &::after {
     content: "";
